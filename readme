@@ -1,11 +1,10 @@
-#Calculadora Básica
+# Calculadora Básica
+
 Este projeto em Python é uma calculadora simples que executa as quatro operações matemáticas principais: soma, subtração, multiplicação e divisão. O objetivo principal é praticar a lógica de programação e aprimorar o uso de funções para modularizar o código, tornando-o mais organizado e reutilizável.
 
-Funcionalidades
-Soma: Realiza a adição de dois números inteiros.
+## Funcionalidades
 
-Subtração: Executa a subtração entre dois números inteiros.
-
-Multiplicação: Calcula o produto de dois números inteiros.
-
-Divisão: Realiza a divisão de dois números inteiros, com verificação para evitar divisão por zero.
+- **Soma**: Realiza a adição de dois números inteiros.
+- **Subtração**: Executa a subtração entre dois números inteiros.
+- **Multiplicação**: Calcula o produto de dois números inteiros.
+- **Divisão**: Realiza a divisão de dois números inteiros, com verificação para evitar divisão por zero.
