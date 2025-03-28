@@ -1,10 +1,22 @@
-# Calculadora Básica
+# Calculadora de Expressões Matemáticas
 
-Este projeto em Python é uma calculadora simples que executa as quatro operações matemáticas principais: soma, subtração, multiplicação e divisão. O objetivo principal é praticar a lógica de programação e aprimorar o uso de funções para modularizar o código, tornando-o mais organizado e reutilizável.
+Este projeto é uma implementação simples de uma **calculadora** que recebe uma expressão matemática do usuário, identifica automaticamente o operador inserido e realiza a operação correspondente entre dois números inteiros. O código trata operações de soma, subtração, multiplicação e divisão, além de ter uma verificação para evitar a divisão por zero.
 
 ## Funcionalidades
 
-- **Soma**: Realiza a adição de dois números inteiros.
-- **Subtração**: Executa a subtração entre dois números inteiros.
-- **Multiplicação**: Calcula o produto de dois números inteiros.
-- **Divisão**: Realiza a divisão de dois números inteiros, com verificação para evitar divisão por zero.
+- Recebe uma **expressão matemática** do usuário no formato `número1 operador número2` (ex: `2+3`).
+- Identifica automaticamente o operador: **+**, **-**, **\***, **/**.
+- Realiza a operação matemática correspondente entre os dois números.
+- **Tratamento de erro** para divisão por zero.
+
+## Estrutura do Código
+
+O código está organizado em funções para modularizar as operações:
+
+- **`input_valores()`**: Recebe a expressão matemática do usuário, identifica o operador e extrai os números.
+  
+- **Funções de operação**:
+  - **`soma()`**: Realiza a soma entre dois números.
+  - **`subtracao()`**: Realiza a subtração entre dois números.
+  - **`multiplicacao()`**: Realiza a multiplicação entre dois números.
+  - **`divisao()`**: Realiza a divisão entre dois números.
