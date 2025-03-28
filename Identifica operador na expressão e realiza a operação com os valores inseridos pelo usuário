@@ -21,28 +21,28 @@ def input_valores():
             break
 
 
-def soma(numero1:int, numero2:int) -> int:
+def soma(numero1:int, numero2:int) -> None:
     'Retorna a soma entre dois valores'
 
     resultado = numero1 + numero2
     print(f'A soma entre {numero1} e {numero2} é igual a {resultado}')
 
 
-def subtracao(numero1:int, numero2:int) -> int:
+def subtracao(numero1:int, numero2:int) -> None:
     'Retorna a subtração entre dois valores'
 
     resultado = numero1 - numero2
     print(f'A subtração entre {numero1} e {numero2} é igual a {resultado}')
 
 
-def multiplicacao(numero1:int, numero2:int) -> int:
+def multiplicacao(numero1:int, numero2:int) -> None:
     'Retorna a multiplicação entre dois valores'
 
     resultado = numero1 * numero2
     print(f'A multiplicação entre {numero1} e {numero2} é igual a {resultado}')
 
 
-def divisao(numero1:int, numero2:int) -> int:
+def divisao(numero1:int, numero2:int) -> None:
     'Retorna a divisão entre dois valores'
 
     resultado = numero1 / numero2
